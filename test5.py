@@ -1,5 +1,7 @@
 def say(message,times=1):
-	print(message*times)
+	while(times>0):
+		print(message)
+		times=times-1
 
 say('hello')
 say('world',5)
