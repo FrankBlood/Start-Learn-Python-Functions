@@ -5,3 +5,7 @@ def maximum(x,y):
 		return y
 
 print(maximum(2,3))
+
+def someFunction():
+	pass
+print(someFunction())
