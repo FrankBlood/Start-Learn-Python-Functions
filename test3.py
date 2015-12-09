@@ -5,4 +5,4 @@ def func(x):
 
 x=int(input('Enter x:'))
 func(x)
-print('x is still',x)
+print('Globle x is still',x)
