@@ -1,4 +1,7 @@
 def sayHello():
 	print('Hello World!')
+def sayHello(name):
+	print('Hello World',name)
 
-sayHello()
+name=input('Please enter your name:')
+sayHello(name)
